@@ -1,6 +1,6 @@
 #ifndef GLOBAL_H_
 #define GLOBAL_H_
 
-#include "math/math.h"
+#include "../src/math/math.h"
 
 #endif

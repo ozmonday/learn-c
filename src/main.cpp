@@ -1,5 +1,5 @@
 #include <iostream>
-#include "global.h"
+#include "../include/global.h"
 
 int main() {
     std::cout << "Hallo World" << std::endl;

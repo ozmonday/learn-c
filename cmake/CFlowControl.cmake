@@ -1,0 +1,10 @@
+function(test_for)
+    set(FRUITS banana papaya melon )
+    foreach(item IN LISTS FRUITS ITEMS a b c d)
+        message("item ${item}") 
+    endforeach()
+    foreach(i RANGE 1 12 2)
+        message(${i})
+    endforeach()
+    
+endfunction()
