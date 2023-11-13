@@ -9,3 +9,8 @@ int Math::min(int a, int b)
 {
     return a-b;
 }
+
+int Math::div(int a, int b)
+{
+    return a/b;
+}
